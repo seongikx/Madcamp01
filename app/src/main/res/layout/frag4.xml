@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/todoFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/shape_whie_back"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="120dp"
+        >
+    <TextView
+        android:layout_marginVertical="40dp"
+        android:id="@+id/select_date"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="194dp"
+        android:layout_height="56dp"
+        android:text="2022년 7월 5일"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="34dp"
+        android:textColor="#B1B1B1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/gotoGallery"
+        android:textColor="#FFAFA8"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="갤러리로"
+        android:textSize="15sp"
+        android:padding="10dp"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:layout_height="70dp">
+    <EditText
+        android:id="@+id/todo"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="30dp"
+        android:hint="  todo"
+        />
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/btn_pink"
+        android:text="추가"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/todoRV"
+        android:layout_width="match_parent"
+        android:layout_height="477dp"
+        android:layout_weight="1"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarSize="5dp"
+        android:scrollbarThumbVertical="@android:color/holo_orange_light"
+        android:scrollbars="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
+    >
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/im3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="20dp"
+                android:textSize="30sp"
+                android:text="name" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="70dp">
+    <Button
+        android:id="@+id/message"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/btn_phone"
+        android:textColor="#4071FF"
+        android:layout_marginRight="13dp"
+        android:layout_width="80dp"
+        android:text="메시지"
+        android:layout_height="55dp"/>
+        <Button
+            android:id="@+id/call"
+            android:layout_marginRight="13dp"
+            android:textColor="#4071FF"
+            android:text="휴대전화"
+            android:background="@drawable/btn_phone"
+            android:layout_width="80dp"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:layout_marginRight="13dp"
+            android:background="@drawable/btn_phone"
+            android:textColor="#7C7C7C"
+            android:layout_width="80dp"
+            android:text="비디오"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:background="@drawable/btn_phone"
+            android:text="Mail"
+            android:textColor="#7C7C7C"
+            android:layout_width="80dp"
+            android:layout_height="55dp"/>
+
+    </LinearLayout>
+            <LinearLayout
+                android:padding="8dp"
+               android:layout_marginLeft="5dp"
+                android:layout_width="400dp"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_phone"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="휴대전화"/>
+            <TextView
+                android:id="@+id/usernumber"
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="number"
+                android:textColor="#4071FF"
+                android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

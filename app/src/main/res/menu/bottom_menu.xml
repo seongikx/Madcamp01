@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_airplane"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_local_phone_24"
+        android:title="주소록"/>
+    <item
+        android:id="@+id/action_airport"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        android:title="사진"/>
+    <item
+        android:id="@+id/action_bt"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_picture_in_picture_24"
+        android:title="기타"/>
+
+
+</menu>

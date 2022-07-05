@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:background="#FFDADA"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/ic_baseline_arrow_white_24"/>
+    <TextView
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:text="갤러리"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+    <TextView
+        android:id="@+id/gotoTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todo로 이동"
+        android:textColor="#FFAFA8"
+        android:padding="15dp"
+        />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+            android:text="select Date"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/select_img"
+        android:layout_width="150dp"
+    android:src="@drawable/selectpicture"
+        android:layout_marginBottom="10dp"
+        android:layout_height="150dp"
+        />
+
+    <EditText
+        android:id="@+id/select_img_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:hint="사진 제목을 입력하시오"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_round"
+        android:id="@+id/select_button"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="저장"/>
+
+
+
+
+</LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="477dp"
+        android:layout_weight="1"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarSize="5dp"
+        android:scrollbarThumbVertical="@android:color/holo_orange_light"
+        android:scrollbars="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

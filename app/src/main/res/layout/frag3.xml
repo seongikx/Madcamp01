@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroo2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="255dp"
+        android:text="｀을ㆅı 우졍 ㅂĦ∩Ŀ㉻慈말ズr¿【∩_∩*】｀"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ultra_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="23dp"
+            android:background="@drawable/maple" />
+
+        <ImageButton
+            android:id="@+id/ultra_image2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="52dp"
+            android:background="@drawable/pokemon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:text="같은그림찾ㄱl..★"
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:text="피카츄를 찾아라!"
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ultra_image3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="23dp"
+            android:background="@drawable/pos2" />
+
+        <ImageButton
+            android:id="@+id/ultra_image4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="52dp"
+            android:background="@drawable/popopo2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:text="두더지ㅈrㅂㄱl..☆"
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:text="가위!바위!보!"
+            android:textSize="14dp"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
